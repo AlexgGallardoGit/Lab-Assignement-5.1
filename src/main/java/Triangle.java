@@ -18,7 +18,7 @@ public class Triangle extends GeometricObject{
         setFilled(filled);
     }
 
-    //setters
+    //accessors
     public void setSide1(double side1) {
         this.side1 = side1;
     }
@@ -28,7 +28,7 @@ public class Triangle extends GeometricObject{
     public void setSide3(double side3) {
         this.side3 = side3;
     }
-    //getters
+    //mutators
     public double getSide1() {
         return side1;
     }
